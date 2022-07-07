@@ -26,11 +26,12 @@ export default function App(props) {
                 paddingVertical: 10, 
                 padding: 5, 
                 marginVertical: 13,
-                borderRadius: 10
+                borderRadius: 10,
+                margin: 6
                 }}>
                 <View>
                     <TouchableOpacity>
-                        <Image style={{ width: 350, height: 350, borderRadius: 5, marginLeft: 3}}
+                        <Image style={{ width: "100%", height: 350, borderRadius: 5}}
                             source={{ uri: "https://image.tmdb.org/t/p/original/" + item.backdrop_path }}
                         />
                     </TouchableOpacity>
